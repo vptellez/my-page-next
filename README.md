@@ -1,6 +1,6 @@
 # Ejemplo de Consumo de API Rest con Next.js
 
-Este es un ejemplo básico de consumo **API Rest** con Next.js en la versión 14. Como API se utilizo el clasico de **Rick & Morty**.
+Ejemplo básico de consumo **API Rest** con Next.js en la versión **14**. Se utilizo el API clasico de **Rick & Morty**.
 
 <img src="https://github.com/vptellez/my-page-next/blob/main/example.png" alt="ejemplo-portafolio" style="width: 85%;">
 
@@ -15,3 +15,10 @@ aceptando los complementos de Tailwind CSS, Código dentro del directorio `src/`
     > Se están utilizando hooks como `useState` y `useEffect` provocando que es componente se comporte como un `Client Component` de Next.js
 - Se puede obtener la vista de detalle del personaje mediante la obtención de su `id`, pasandolo como `argumento` y dando estilo al componente mediante `module.css`
     > También el componente se comporta como un `Client Component` de Next.js
+
+## Instalación:
+- Instala las dependencias del proyecto con el siguiente comando:
+  > npm install
+- Para iniciar el servidor de desarrollo y ejecutar el proyecto localmente, usa:
+  > npm run dev
+  > Si todo está configurado correctamente, deberías ver un mensaje indicando que el servidor está corriendo, usualmente en http://localhost:3000.
