@@ -1,0 +1,42 @@
+.container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.container:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-0.25rem);
+}
+.title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+.image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    margin: auto;
+}
+.content {
+    margin-top: 2rem;
+}
+.detail {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+.detail strong {
+    font-size: 0.8rem;
+    color: #333;
+}
+.loading {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2rem;
+}
