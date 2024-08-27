@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ejemplo de Consumo de API Rest con Next.js
 
-## Getting Started 
+Este es un ejemplo básico de consumo **API Rest** con Next.js en la versión 14. Como API se utilizo el clasico de **Rick & Morty**.
 
-First, run the development server:
+<img src="https://github.com/vptellez/my-page-next/blob/main/example.png" alt="ejemplo-portafolio" style="width: 85%;">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Next.js - v14](https://img.shields.io/badge/Next.js-v14-2ea44f)
+![React - v18](https://img.shields.io/badge/React-v18-9c640c)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Para la construcción del proyecto se utilizó una instalación automática `npx create-next-app@latest`,
+aceptando los complementos de Tailwind CSS, Código dentro del directorio `src/`, y App Router.
+- En la página inicial se consume un listado de personajes que se muestran dentro de un `grid` y dando estilo con ayuda de `Tailwind css`.
+    > Se están utilizando hooks como `useState` y `useEffect` provocando que es componente se comporte como un `Client Component` de Next.js
+- Se puede obtener la vista de detalle del personaje mediante la obtención de su `id`, pasandolo como `argumento` y dando estilo al componente mediante `module.css`
+    > También el componente se comporta como un `Client Component` de Next.js
