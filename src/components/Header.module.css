@@ -2,3 +2,12 @@
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24'%3E%3Cdefs%3E%3Cpath id='a' fill='%23C8C8C8' d='M12.5 13.563 6.762 8 5 9.712 12.5 17 20 9.712 18.237 8z'/%3E%3C/defs%3E%3Cuse fill-rule='evenodd' xlink:href='%23a'/%3E%3C/svg%3E");
     width: 24px;
 }
+.hiddenSection {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.active {
+    opacity: 1;
+    visibility: visible;
+}
