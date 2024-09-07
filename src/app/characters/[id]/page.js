@@ -40,12 +40,12 @@ export default function CharacterDetail({ params }) {
             <h1 className={styles.title}>{character.name}</h1>
             <img src={character.image} alt={character.name} className={styles.image}/>
             <div className={styles.content}>
-                <p className={styles.detail}><strong>Status:</strong> {character.status}</p>
-                <p className={styles.detail}><strong>Species:</strong> {character.species}</p>
-                <p className={styles.detail}><strong>Gender:</strong> {character.gender}</p>
+                <p className={styles.detail}><strong>Status: </strong> {character.status}</p>
+                <p className={styles.detail}><strong>Species: </strong> {character.species}</p>
+                <p className={styles.detail}><strong>Gender: </strong> {character.gender}</p>
 
-                <p className={styles.detail}><strong>Origin:</strong> {character.origin.name}</p>
-                <p className={styles.detail}><strong>Location:</strong> {character.location.name}</p>
+                <p className={styles.detail}><strong>Origin: </strong> {character.origin.name}</p>
+                <p className={styles.detail}><strong>Location: </strong> {character.location.name}</p>
             </div>
         </section>
     );
